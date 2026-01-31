@@ -8,3 +8,9 @@ git remote add origin https://github.com/Tiendat2K2/hoc-git-.git : add remote ho
 git status: check status
 rm -rf .git : xoa git
 git rm --cached index.html : xoa file index.html
+git add index.html : add file index.html
+git commit -m "add index.html" : commit file index.html
+git add . : add file
+git commit -m "add file" : commit file
+git push -u origin main : push file
+.gitignore : xem file
